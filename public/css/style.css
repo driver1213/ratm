@@ -1,0 +1,60 @@
+#bg {
+    position: fixed; 
+    top: 15%; 
+    left: 0; 
+    width: 80px;
+    /* Preserve aspect ratio */
+    min-width: 100%;
+    min-height: 100%;
+    background-color: black;
+}
+
+#body{
+    background-color: black;
+}
+#header {
+    position: relative;    
+    top: 0;
+    width: 0%;
+    background-color: black;
+    padding: 5px;
+}
+
+
+
+#header .container{
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+
+.nav-logo{
+    margin-left: 30px;
+}
+
+.albumslist {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    line-height: 160%;
+    background-color: white;
+    }
+    
+    #albumsList .albumslist-img {
+        margin-right: 20px;
+    }
+    
+    .albumslist-title {
+        font-size: 1.7em;
+    }
+    
+    #home .albumslist-title {
+        font-size: 1.5em;
+    }
+    
+    
+    
+
+    
