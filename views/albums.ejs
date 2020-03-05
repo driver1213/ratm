@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title><%= pageTitle %></title>
+    <title>Albums</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,9 +38,7 @@
                         <a class="nav-link" href="#">News</a>
                     </li>
                     
-                    <!-- <% allAlbums.forEach(function(item){ %>
-                        <li><a href="/images/<%= item.name %>"><%= item.songList %></a></li>
-                    <% }); %> -->
+                    
 
                 </ul>
                 <div class="navbar-expand">
@@ -52,63 +50,28 @@
         </div>
         </div>  <!--container-->
     </header>
+    
 
-        <div class="main-container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="albumslist">
-                    <div class="container">
-                        <div class="row">
-                            <% allAlbums.forEach(function(item) { %>
-                            <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">
-                            <h3 class="albumslist-title"><%= item.title %></h3>
-                            <h5 class="albumslist-name"> <a href="/images/covers<%= item.albumName %>"><%= item.name %></a></h5>
-                            <p class="albumslist-info">
-                                <a href="/images/covers/<%= item.albumName %>">
-                    
-                                <% if (pageID == 'home') { %>
-                                    <img class="albumslist-img img-circle" src="/images/<%= item.covers %>" alt="Photo of <%= item.name %>">
-                                <% } %>
+        
+                
+    <h2 id="album-name" ><%= allAlbums.albumName %> </h2>
 
-                                <% if (pageID == 'albumsList') { %>
-                                    <img width="200px" class="albumslist-img img-circle " src="/images/covers/<%= item.coverImage %>" alt="Photo of <%= item.name %>">
-                                <% } %>
+    <img width="300px" src="/images/covers/<%= allAlbums.coverImage %> " alt="">
+    <br>
+
+    <div id="summary" ><%= allAlbums.summary %> </div>
+
+    <ul id="songs" >
+        <% for( let i = 0; i <= allAlbums.songList.length; i++ ) { %>
+        <li> <%= allAlbums.songList[i] %> </li>
+        <% } %> 
+</ul>
+
+
+
+                            
+
                                 
-                    
-                                <% if (pageID == 'albumDetail') { %>
-                                <img class="albumslist-img img-responsive pull-left" src="/images.covers/<%= item.summary %>" alt="Photo of <%= item.name %>">
-                                <% } %>
-                            </a>
-
-                            <h2><%= item.albumName %> </h2>
-
-                            <img src="/images/<%= item.coverImage %> " alt="">
-                            <br>
-
-                            <div><%= item.summary %> </div>
-
-                            
-
-                                <!-- <% if (pageID !== 'home') { %>
-                                <% if (pageID == 'albumsList') { %>
-                                    <%= item.albumName %>
-                                <% } else { %>
-                                    <% item.summary %>
-                                <% } %>
-                                <% } %> -->
-                            </p>
-                            </div>
-                            <%  }); %>
-
-                            
-                        </div><!-- row -->
-                    </div><!-- container -->
-                </div>
-                    
-            </div><!-- primary -->
-            
-            </div>
-        </div><!-- container -->
         
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

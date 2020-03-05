@@ -13,11 +13,7 @@
 </head>
   <body id="body">
         <header id="header">
-            <!-- <div class="jumbotron hidden-xs">
-            </div>jumbotron -->
-            <img src="images/misc/bandpose.jpg" id="bg" alt="">
-            <div class="container">
-            <!-- <nav class="navbar navbar-expand navbar-danger bg-light"> -->
+                <div class="container">
                 <a class="nav-logo" href="/"><img src="https://www.ratm.com/wp-content/themes/ratm/assets/img/logo.png" alt=""></a>
                 <div class="nav-collapse">
                     <nav class="navbar navbar-expand">
@@ -55,18 +51,24 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">
+                <!-- <div class="col-sm-8"> -->
                     <div class="maincontent">
-                        <article class="article">
-                            <% for( let index = 0; index < coverImage.length; index++ ) { %>
-                                <a href="/albums/<%= index %> "><img src="/albums/<%= coverImage[index] %>" alt=""></a>
-                            <% } %>
-                        </article>
+                        <% for( let index = 0; index < coverImage.length; index++ ) { %>
+                            <a href="/albums/<%= index %> "><img width="50px" src="/images/covers/<%= coverImage[index] %>" alt=""></a>
+                        <% } %>
+
                     </div>
                 </div>
 
             </div>
         </div>
+
+        <footer>
+            <div class="row">
+                <img src="images/misc/bandpose.jpg" id="bg" alt="">
+
+            </div>
+        </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
