@@ -8,20 +8,28 @@
     min-height: 100%;
     background-color: black;
 }
-
+.info{
+    padding: 20px;
+    background-color: black;
+}
 #album-name{
-    color: white;
-    
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #songs{
-    color: red;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #summary{
-    color: white;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
 }
-
+#release{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
 #body{
     background-color: black;
 }
@@ -33,6 +41,9 @@
     padding: 5px;
 }
 
+.cover-art{
+    padding-left: 3px;
+}
 
 
 #header .container{
@@ -48,26 +59,23 @@
     margin-left: 30px;
 }
 
-.albumslist {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.8rem;
-    line-height: 160%;
-    background-color: white;
-    }
-    
-    #albumsList .albumslist-img {
-        margin-right: 20px;
-    }
-    
-    .albumslist-title {
-        font-size: 1.7em;
-    }
-    
-    #home .albumslist-title {
-        font-size: 1.5em;
-    }
-    
-    
-    
+#songs{
+    float: right;
+    margin-right: 00px;
+    display: inline;
+}
 
-    
+#album-img{
+    padding-left: 50px;
+}
+
+#logo{
+    margin-left: 400px;
+}
+
+.music{
+    font-size: large;
+    color: red;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

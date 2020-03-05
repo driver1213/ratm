@@ -3,7 +3,8 @@
         "albumName": "Rage Against The Machine",
         "releaseDate": "November 3, 1992",
         "coverImage": "Rage_Against_The_Machine.jpg",
-        "songList": ["Bombtrack", 
+        "songList": [
+            "Bombtrack", 
             "Killing In the Name", 
             "Take the Power Back", 
             "Settle for Nothing", 
@@ -12,7 +13,7 @@
             "Wake Up", 
             "Fistful of Steel", 
             "Township Rebellion", 
-            "Freedom" ],
+            "Freedom"],
         "summary": "Rage Against The Machine’s shocking fusion of hip-hop and metal and unyielding political messages, inspired by everything from the Black Panthers to IRA hunger strikes, was unlike any album released in 1992. The Los Angeles Times hailed it as 'a striking, politically conscious debut' and Q praised its 'real attitude and energy.'",
         "short summary": "This is their first studio album"
     
@@ -20,7 +21,8 @@
         "albumName": "Evil Empire",
         "releaseDate": "April 16, 1996",
         "coverImage": "Evil_Empire.jpg",
-        "songList": ["People of the Sun",
+        "songList": [
+            "People of the Sun",
             "Bulls On Parade",
             "Vietnow",
             "Revolver",
@@ -32,13 +34,14 @@
             "Roll Right",
             "Year of tha Boomerang"],
         "summary": "Fans waited four years for a follow-up to Rage Against The Machine, and Evil Empire did not disappoint, debuting atop the Billboard 200 and featuring favorites like “Bulls On Parade” and the GRAMMY Award-winning “Tire Me.” Rage famously promoted the release with a performance on Saturday Night Live that doubled as a protest of host and then-presidential hopeful Steve Forbes.",
-        "short summary": "This is their second studio album"
+        "short summary": "This is their much anticipated second studio album"
 
     }, {
         "albumName": "The Battle of Los Angeles",
         "releaseDate": "November 2, 1999",
         "coverImage": "The_Battle_of_Los_Angeles.jpg",
-        "songList": ["Testify",
+        "songList": [
+            "Testify",
             "Guerrilla Radio",
             "Calm Like a Bomb",
             "Mic Check",
@@ -51,13 +54,14 @@
             "Ashes In the Fall",
             "War Within a Breath"],
         "summary": "The Battle Of Los Angeles was named the best album of 1999 by Rolling Stone and Time. “Calm Like a Bomb,” “Sleep Now In The Fire” and “Testify” (the latter two supported by videos directed by Michael Moore, with “Sleep Now In The Fire” featuring a band-led protest that closed the New York Stock Exchange) are among the most powerful political tracks of their time.",
-        "short summary": "This is their third studio album"
+        "short summary": "This is their third and most acclaimed studio album"
 
     }, {
         "albumName": "Renegades",
         "releaseDate": "December 5, 2000",
         "coverImage": "Renegades.jpg",
-        "songList": ["Microphone Fiend", 
+        "songList": [
+            "Microphone Fiend", 
             "Pistol Grip Pump", 
             "Kick out the Jams", 
             "Renegades Of Funk", 
@@ -70,7 +74,7 @@
             "Street Fighting Man", 
             "Maggie’s Farm" ],
         "summary": "Rage’s final studio album to date, released at the end of 2000, finds the group paying tribute to musicians who influenced them, from Afrika Bambaataa (“Renegades Of Funk”) to Bruce Springsteen (“The Ghost Of Tom Joad), Cypress Hill (“How I Could Just Kill a Man”) to The MC5 (“Kick Out The Jams”).",
-        "short summary": "This is their fourth studio album"
+        "short summary": "This is their fourth and last studio album"
 
     }]
 }

@@ -22,52 +22,34 @@
                     </button>
                 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav ">
                         <li class="nav-item active">
                         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="/albums">Albums</a>
+                            <a class="nav-link" href="https://tour.ratm.com/">Tour</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Bio</a>
+                            <a id="logo" href="#"> <img width="60px" src="images/misc/fistraised.jpeg" alt=""></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">News</a>
-                        </li>
+                        
                     </ul>
-                    
-                    <div class="navbar-expand">
-                        <img width="50px" src="images/misc/fistraised.jpeg" alt="">
-
-                    </div>
                     </div>  
                 </nav>
             </div>
             </div>  <!--container-->
         </header>
         
-
-
-        <div class="container">
-            <div class="row">
-                <!-- <div class="col-sm-8"> -->
-                    <div class="maincontent">
-                        <% for( let index = 0; index < coverImage.length; index++ ) { %>
-                            <a href="/albums/<%= index %> "><img width="50px" src="/images/covers/<%= coverImage[index] %>" alt=""></a>
-                        <% } %>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
+        <img src="images/misc/bandpose.jpg" id="bg" alt="">
+        <br><br>
+            <div class="music">MUSIC</div>
+            <br>
         <footer>
-            <div class="row">
-                <img src="images/misc/bandpose.jpg" id="bg" alt="">
-
-            </div>
+            <div class="cover-art">
+                <% for( let index = 0; index < coverImage.length; index++ ) { %>
+                    <a href="/albums/<%= index %> "><img width="24.5%" src="/images/covers/<%= coverImage[index] %>" alt=""></a>
+                <% } %>
+                </div>
         </footer>
 
     <!-- Optional JavaScript -->

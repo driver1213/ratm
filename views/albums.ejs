@@ -12,6 +12,7 @@
 
 </head>
   <body id="body">
+
     <header id="header">
 
         <div class="container">
@@ -29,22 +30,17 @@
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="/albums">Albums</a>
+                    <a class="nav-link" href="https://tour.ratm.com/">Tour</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Bio</a>
+                    <li>
+                        <img width="50px" src="images/misc/fistraised.jpeg" alt="">
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    
-                    
-
                 </ul>
-                <div class="navbar-expand">
+
+                <!-- <div class="navbar-expand">
                     <img width="50px" src="images/misc/fistraised.jpeg" alt="">
 
-                </div>
+                </div> -->
                 </div>
             </nav>
         </div>
@@ -53,21 +49,27 @@
     
 
         
-                
+    <div class="info">            
     <h2 id="album-name" ><%= allAlbums.albumName %> </h2>
+    <h5 id="release" ><%= allAlbums.releaseDate %> </h5>
 
-    <img width="300px" src="/images/covers/<%= allAlbums.coverImage %> " alt="">
-    <br>
 
     <div id="summary" ><%= allAlbums.summary %> </div>
+        <br>
+    <div class="row">
+        <div id="album-img">
+    <img width="250px" src="/images/covers/<%= allAlbums.coverImage %> " alt="">
+</div>
 
-    <ul id="songs" >
-        <% for( let i = 0; i <= allAlbums.songList.length; i++ ) { %>
-        <li> <%= allAlbums.songList[i] %> </li>
+    <ol id="songs" > 
+        <% for( let i = 0; i < allAlbums.songList.length; i++ ) { %>
+        <li class="songlist"> 
+            <%= allAlbums.songList[i] %> 
+        </li>
         <% } %> 
-</ul>
-
-
+    </ol>
+</div>
+</div>
 
                             
 
